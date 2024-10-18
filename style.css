@@ -1,0 +1,80 @@
+ html, body {
+ background-color: white;
+   color: black;
+  margin: 2px;
+  margin-bottom: 30px;
+  font-family: "Edu AU VIC WA NT Guides", system-ui;
+}
+
+ header{
+   color:red;
+   font-size: 80px;
+   border-bottom: solid 2px white;
+   display: flex;
+   position: relative;
+   margin: 20px;
+   padding: 0px;
+   font-family: "Sixtyfour Convergence", system-ui;
+   }
+
+.inicio{
+  background: lightblue;
+  margin: 20px;
+  padding: 20px;
+  display:flex;
+  font-size: 30px;
+}
+
+p{
+  text-align: justify;
+}
+
+.video{
+  margin-right: 50px;
+}
+
+.logo{
+  height: 100px;
+  position: relative;
+  margin-left: 700px;
+}
+
+.batata{
+  margin: 50px;
+  align-content: center;
+}
+
+.clipes{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.clipes img{
+  height:200px;
+  opacity: 0.5;
+} 
+
+.clipes img:hover{
+  opacity: 1.0;
+  border: solid 2px  pink;
+  box-shadow: 2px 4px 4px gray;
+}
+
+footer{
+   font-family: "Sixtyfour Convergence", system-ui;
+  color: purple;
+  align-items: center;
+  background-color: pink;
+  position: fixed;
+  bottom:0;
+  width:100%;
+  height: 2em;
+  padding: 20px;
+  text-align: center;
+  font-size: 1rem;
+  display: block;
+  margin: 0 auto;
+ padding-left: 450px;
+    
+}
